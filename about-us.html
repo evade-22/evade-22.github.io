@@ -6,9 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Shoes Me</title>
     <link rel="stylesheet" href="style.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <!-- bootstrap -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
-    <link href="https://getbootstrap.com/docs/5.2/assets/css/docs.css" rel="stylesheet">
 </head>
 <body>
     <nav class="navbar navbar-expand-lg sticky-top" style="padding: 5px; background-color: rgb(219, 201, 255);">
@@ -44,48 +46,73 @@
         </div>
     </nav>
 
-    <main class="about-main">
-    <div class="card">
-        <div class="card-header">
-            <ul class="nav justify-content-center nav-pills card-header-pills" id="nav_tab">
-                <li class="nav-item"><a style="background-color: rgb(219, 201, 255); color: white;" 
-                class="nav-link active" href="#history" data-bs-toggle="tab">History</a></li>
-                <li class="nav-item"><a style="background-color: rgb(219, 201, 255); color: white;" 
-                class="nav-link" href="#testimonials" data-bs-toggle="tab">Testimonials</a></li>
-                <li class="nav-item"><a style="background-color: rgb(219, 201, 255); color: white;" 
-                class="nav-link" href="#trivia" data-bs-toggle="tab">Trivia</a></li>
-            </ul>
-        </div>
-        <div class="card-body">
-            <div class="tab-content">
-                <div class="tab-pane fade show active" id="history">
-                    <h5 class="card-title">History</h5>
-                    <p class="card-text">Lorem ipsum dolor sit, amet
-                    consectetur adipisicing elit. Consequatur reprehenderit 
-                    nisi magni alias vero, sunt repudiandae? Magnam veritatis 
-                    temporibus exercitationem ullam maxime ad optio laboriosam, 
-                    aperiam corporis saepe incidunt. Illum!</p>
+    <div class="about-main">
+    <div class="row">
+        <div class="col-md-2"></div>
+        <div class="col-md-8">
+            <div class="card">
+                <div class="card-header">
+                    <ul class="nav justify-content-center nav-pills card-header-pills" id="nav_tab">
+                        <li class="nav-item"><a style="background-color: rgb(219, 201, 255); color: white;" 
+                        class="nav-link active" href="#history" data-bs-toggle="tab">About</a></li>
+                        <li class="nav-item"><a style="background-color: rgb(219, 201, 255); color: white;" 
+                        class="nav-link" href="#testimonials" data-bs-toggle="tab">Testimonials</a></li>
+                        <li class="nav-item"><a style="background-color: rgb(219, 201, 255); color: white;" 
+                        class="nav-link" href="#trivia" data-bs-toggle="tab">Trivia</a></li>
+                    </ul>
                 </div>
-                <div class="tab-pane fade" id="testimonials">
-                    <h5 class="card-title">Testimonials</h5>
-                    <p class="card-text">Lorem ipsum dolor sit, amet
-                    consectetur adipisicing elit. Consequatur reprehenderit 
-                    nisi magni alias vero, sunt repudiandae? Magnam veritatis 
-                    temporibus exercitationem ullam maxime ad optio laboriosam, 
-                    aperiam corporis saepe incidunt. Illum!</p>
-                </div>
-                <div class="tab-pane fade" id="trivia">
-                    <h5 class="card-title">Trivia</h5>
-                    <p class="card-text">Lorem ipsum dolor sit, amet
-                    consectetur adipisicing elit. Consequatur reprehenderit 
-                    nisi magni alias vero, sunt repudiandae? Magnam veritatis 
-                    temporibus exercitationem ullam maxime ad optio laboriosam, 
-                    aperiam corporis saepe incidunt. Illum!</p>
+                <div class="card-body">
+                    <div class="tab-content">
+                        <div class="tab-pane fade show active" id="history">
+                            <h3 class="card-title">About</h3>
+                            <h5 class="card-text">What started as an idea turned into a reality, Shoes Me is
+                            all about providing up to date news about sneakers to its consumers. Not only providing
+                            latest news about sneakers but a step-to-step guide on what to look for in purchasing their
+                            favorite sneakers. Shoes Me may be a relatively new site, but is committed to being one of the top
+                            source for sneaker news and to become a household name one day. <br><br>
+                            From having a few thousand users on launch to having our highest concurrent users recently at 1 million,
+                            setting a personal record and we are not just stopping there and a total of 8 million followers across social media,
+                            Shoes Me is definitely getting its recognition and will only to continue to grow from there. 
+                            Shoes Me was founded in 2020 by Dave Pua and currently resides in Malabon, Philippines. 
+                        
+                            </h5>
+                        </div>
+                        <div class="tab-pane fade" id="testimonials">
+                            <h3 class="card-title">Testimonials</h3>
+                            <h5 class="card-text">
+                                Jocelyn Evans: "Shoes Me may be a new site but as a novice in the sneaker game, 
+                                they helped me pick out a sneaker that fits my vibe with their advice #thankful"
+                                <br/><br/>
+                                Lemuel Poole: "I have been in the sneaker game for quite some time and if you want another
+                                reliable source for all your sneaker needs, then I HIGHLY RECOMMEND SHOES ME. Check it out!"
+                                <br/><br/>
+                                Lincoln Young: "All these other sites I have used but I appreciate the Shoes Me coming in and still
+                                stand out amongst their competitors. Truly a game-changer in the sneaker game #shoesme"
+                            </h5>
+                        </div>
+                        <div class="tab-pane fade" id="trivia">
+                            <h3 class="card-title">Did You Know?</h3>
+                            <h5 class="card-text">
+                                <ul>
+                                    <li>Shoes Me may have started in 2020, but the idea to create such site was
+                                    planned all the way back to 2010 and with the help of studying coding, it was made possible.
+                                    </li> <br/>
+                                    <li>Shoes Me was originally called, What Are Those?, as a reference to a famous vine video back 
+                                    in 2015 but decided not to reuse original content and make up our own.
+                                    </li> <br/>
+                                    <li>Drake was the first celebrity to mention Shoes Me in his socials and hence the suddent tick in user counts.
+                                    Talk about timing and huge thanks to Drake himself for discovering us.
+                                    </li>
+                                </ul>
+                            </h5>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
+        <div class="col-md-2"></div>
     </div>
-    </main>
+    </div>
 
     <footer>
         <h2>All Rights Reserved <i class="bi bi-c-circle"></i> 2022</h2>
