@@ -118,12 +118,23 @@ footer h2{
     opacity: 0;
     text-align: center;
 }
-
+.label2{
+    transition: .5s ease;
+    opacity: 0;
+    text-align: center;
+    position: absolute;
+    transform: translate(163px, -200px);
+}
+.col-md-4{
+    padding: 15px;
+}
 .col-md-4:hover .image{
     opacity: 0.3;
 }
-
 .col-md-4:hover .label{
+    opacity: 1;
+}
+.col-md-4:hover .label2{
     opacity: 1;
 }
 
@@ -131,6 +142,13 @@ footer h2{
     color: rgb(150, 98, 255);
     font-size: 16px;
     padding: 10px;
+}
+.text a{
+    text-decoration: none;
+    color: black;
+}
+.text a:hover{
+    color: black;
 }
 
 /* PHONE COMPATIBLE */
