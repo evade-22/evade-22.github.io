@@ -67,7 +67,6 @@ body{
     font-size: 20px;
     padding: 0px 20px 20px 20px;
     color: rgb(150, 98, 255);
-
 }
 .articles-link a{
     color: grey;
@@ -95,19 +94,51 @@ footer h2{
     margin: auto auto;
 }
 .contact-content{
-    margin: 20px;
-    padding: 15px;
+    color: gray;
+    margin: 22px;
 }
 .form-label, .form-control{
     color: grey;
 }
 .tab-content{
-    color: rgb(114, 61, 220);
+    color: rgb(150, 98, 255);
 }
+/* HOVERING */
+.image{
+    opacity: 1;
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+  }
+  
+.label{
+    transition: .5s ease;
+    opacity: 0;
+    text-align: center;
+}
+
+.col-md-4:hover .image{
+    opacity: 0.3;
+}
+
+.col-md-4:hover .label{
+    opacity: 1;
+}
+
+.text {
+    color: rgb(150, 98, 255);
+    font-size: 16px;
+    padding: 10px;
+}
+
+/* PHONE COMPATIBLE */
 @media only screen and (max-width:550px){
     .grid-align{
         display: grid;
         grid-template-columns: 1fr;
+        place-items: center;
     }
     .articles-link{
         text-align: center;
